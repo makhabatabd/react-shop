@@ -1,3 +1,4 @@
+import { margin, width } from "@mui/system";
 import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { carContext } from "../../Contexts/CarContexts";
@@ -9,13 +10,19 @@ const Details = () => {
     getOneCar(params.id);
   }, []);
   return oneCar ? (
-    <>
-      <h2>{oneCar.model}</h2>
-      <h3>{oneCar.img}</h3>
-      <h3>{oneCar.price}</h3>
-      <div>Details</div>
-      <h4>{oneCar.details}</h4>
-    </>
+    <div
+      style={{
+        textAlign: "center",
+        width: "70%",
+        margin: "120px auto",
+      }}
+    >
+      <h2>Model:{oneCar.model}</h2>
+      <h2>Image:{oneCar.img}</h2>
+      <h2>Price:{oneCar.price}</h2>
+      <h2>Details</h2>
+      <h3>{oneCar.details}</h3>
+    </div>
   ) : (
     <h1>Loading</h1>
   );

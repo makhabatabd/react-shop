@@ -1,0 +1,14 @@
+.list {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.inp {
+  margin: 30px auto;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+}
