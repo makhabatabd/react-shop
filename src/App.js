@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import AddCar from "./components/AddCar/AddCar";
+import CarsList from "./components/CarsList/CarsList";
+import Details from "./components/Details/Details";
+import EditCar from "./components/EditCar/EditCar";
+import CarsContextProvider from "./Contexts/CarContexts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CarsContextProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/edit/:id" element={<EditCar />} />
+          <Route path="/details/:id" element={<Details />} />
+          <Route path="/" element={<CarsList />} />
+          {/* <Route path="/add" element={<AddCar />} /> */}
+        </Routes>
+      </BrowserRouter>
+    </CarsContextProvider>
   );
 }
 
