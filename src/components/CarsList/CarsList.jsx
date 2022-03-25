@@ -11,6 +11,8 @@ import { Box } from "@mui/system";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import { GifBoxTwoTone } from "@mui/icons-material";
+import "./CarList.css";
 
 const CarsList = () => {
   const [open, setOpen] = useState(false);
@@ -36,35 +38,43 @@ const CarsList = () => {
   const handleChange = (event, value) => {
     setPage(value);
   };
-
   return (
-    <div>
+    <div className="list">
       <div>
         <input
-          style={{ marginTop: "10px", width: "290px", marginBottom: "20px" }}
+          className="inp"
           type="text"
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
           placeholder="Search...."
         />
+        <br />
+        <Button
+          style={{ marginBottom: "50px" }}
+          variant="contained"
+          onClick={() => setOpen(true)}
+        >
+          Add
+        </Button>
+        <AddCar open={open} setOpen={setOpen} />
       </div>
-      {cars.map((item) => {
-        return (
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              flexWrap: "wrap",
-            }}
-            key={item.id}
-          >
-            <div>
-              <Card sx={{ width: 345 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
+          alignItems: "center",
+        }}
+      >
+        {cars.map((item) => {
+          return (
+            <Box key={item.id}>
+              <Card sx={{ width: 500 }}>
                 <CardMedia
                   component="img"
                   alt="green iguana"
-                  height="140"
+                  height="260"
                   image={item.img}
                 />
                 <CardContent>
@@ -72,26 +82,32 @@ const CarsList = () => {
                   <p>{item.price}</p>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={() => deleteCar(item.id)} size="small">
-                    Delete
-                  </Button>
-                  <Link to={`/edit/${item.id}`}>
-                    <Button size="small">Edit</Button>
-                  </Link>
-                  <Link to={`/details/${item.id}`}>
-                    <Button size="small">Details</Button>
-                  </Link>
-                  <Button onClick={() => setOpen(true)}>Add</Button>
-                  <AddCar open={open} setOpen={setOpen} />
+                  <Box sx={{ margin: "auto" }}>
+                    <Button onClick={() => deleteCar(item.id)} size="small">
+                      Delete
+                    </Button>
+                    <Link to={`/edit/${item.id}`}>
+                      <Button size="small">Edit</Button>
+                    </Link>
+                    <Link to={`/details/${item.id}`}>
+                      <Button size="small">Details</Button>
+                    </Link>
+                  </Box>
                 </CardActions>
               </Card>
-            </div>
-          </Box>
-        );
-      })}
+            </Box>
+          );
+        })}
+      </Box>
       <Stack spacing={2}>
-        <Typography>Page: {page}</Typography>
-        <Pagination count={4} page={page} onChange={handleChange} />
+        {/* <Typography>Page: {page}</Typography> */}
+        <Pagination
+          sx={{ margin: "90px auto" }}
+          style={{ textAlign: "center" }}
+          count={4}
+          // page={page}
+          onChange={handleChange}
+        />
       </Stack>
     </div>
   );

@@ -27,25 +27,34 @@ const EditCar = () => {
     navigate("/");
   }
   return edit ? (
-    <div>
+    <div style={{ marginTop: "150px", textAlign: "center" }}>
       <input
         value={edit.model}
         onChange={handleValue}
         name="model"
         type="text"
+        style={{ width: "150px", height: "20px" }}
       />
-      <input value={edit.img} onChange={handleValue} name="img" type="text" />
+      <input
+        value={edit.img}
+        onChange={handleValue}
+        name="img"
+        type="text"
+        style={{ width: "250px", height: "20px" }}
+      />
       <input
         value={edit.price}
         onChange={handleValue}
         name="price"
         type="text"
+        style={{ width: "150px", height: "20px" }}
       />
       <input
         type="text"
         value={edit.details}
         name="details"
         onChange={handleValue}
+        style={{ width: "250px", height: "20px" }}
       />
       <button onClick={save}>Save</button>
     </div>

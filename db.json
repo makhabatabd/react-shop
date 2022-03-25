@@ -10,7 +10,7 @@
     {
       "model": "LC 500",
       "img": "https://toyota.scene7.com/is/image/toyota/Lexus-LCC-inspirationseries-specialedition-overlayhero-desktop-1440x596-LEX-LCC-MY23-0003?wid=1440&hei=596",
-      "price": "105.575$",
+      "price": "106.575$",
       "details": "Taking personalized luxury to even greater heights, the LC Inspiration Series elevates the convertible as only Lexus could imagine. Building upon the generously equipped Touring Package, the LC Inspiration Series indulges with features that include Dark Rose interior accents and a heated leather-wrapped steering wheel. Its exterior captivates with an Iridium hue, a Dark Rose convertible soft top, and staggered 21-inch forged alloy wheels. And with its 471-horsepower,* 5.0-liter naturally aspirated V8 engine ready to provide a 0–60 time of just 4.6 seconds,*performance is as passionate as ever.",
       "id": 4
     },
@@ -24,7 +24,7 @@
     {
       "model": "LS Hybrid",
       "img": "https://toyota.scene7.com/is/image/toyota/Lexus-LS-additionalinfo-endcap-desktop-1440x350-LEX-LSG-MY21-0059_M75?wid=1440&hei=350",
-      "price": "80, 000 $",
+      "price": "80. 000 $",
       "details": "Impressively smooth 0–60 acceleration. A sophisticated suspension system. And everything from engine components to the composition of the tires has been perfected to achieve a quiet, refined ride.",
       "id": 7
     },
@@ -38,23 +38,37 @@
     {
       "model": "PURE EV",
       "img": "https://www.lexus.com/content/dam/lexus/images/fcv/LF-Z/Lexus-LFZ-performance1-desktop-1440x800-LEX-LFZ-CY21-0004_M75.jpg",
-      "price": "120, 000 $",
+      "price": "120. 000 $",
       "details": "Reimagining the future of driving manifests itself in the first Lexus to be built on an all-electric platform. Its all-new powertrain will vastly improve acceleration and power delivery compared to traditional cars. With an impressive driving range, the LF-Z Electrified Concept will accelerate with astonishing speed. The center of gravity will also be lowered to give the driver the razor-sharp handling and enhanced control needed for a demanding drive.",
       "id": 9
     },
     {
       "model": "UX",
       "img": "https://www.lexus.com/content/dam/lexus/images/models/ux/2022/visualizer/200/exterior/18-five-spoke-alloy/eminent-white-pearl/large-1.jpg",
-      "price": "30,5 $",
+      "price": "30.5 $",
       "details": "Alexa* integration. Android Auto™* compatibility. An available 10.3-inch high-resolution split-screen multimedia display—the largest in its class.* This is more than standard technology that connects you. It's an extension of you.",
       "id": 10
     },
     {
-      "model": "hvnhb",
-      "img": "jhgjh",
-      "price": "hfmj",
-      "details": "gfmh",
-      "id": 11
+      "model": "ES",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/es/2022/visualizer/350/exterior/17-twin-v-spoke-alloy-dark-metallic-machined-finish/nightfall-mica/large-1.jpg",
+      "price": "41.875 $",
+      "details": "The 2022 ES features an all-new touchscreen, and innovations like Apple CarPlay®* integration and Android Auto™* compatibility. Offering class-leading audio technology,* every element of the ES is crafted around you.",
+      "id": 12
+    },
+    {
+      "model": "LC CONVERTIBLE",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/lc/2021/visualizer/convertible/exterior/20-split-10-spoke-cast-dark-silver-machined-finish/flare-yellow/top-down-black-soft-top/large-1.jpg",
+      "price": "102.175 $",
+      "details": "An advanced climate system that adapts to your body temperature in real time. A world-class audio system that envelops you in sound. Apple CarPlay®* integration. Every touchpoint of the LC is crafted around you.",
+      "id": 13
+    },
+    {
+      "model": "NX 75",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/nx/2022/visualizer/350/exterior/18-inch-15-spoke-alloy-wheels-dark-gray-machined-finish/eminent-white-pearl/large-1.jpg",
+      "price": "47.600 $",
+      "details": "Experience an interior where technology isn’t just second-to-none, it’s second nature. Lexus Interface* works as an extension of you, enabling you to personalize your multimedia experience, and provides seamless hands-free access to next-generation features like the new available Mark Levinson®* PurePlay Surround Sound with Clari-Fi®*. Convenience is also enhanced with new available innovations like a color Head-Up Display and Digital Rearview Mirror.",
+      "id": 14
     }
   ]
 }
