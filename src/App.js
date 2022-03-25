@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AddCar from "./components/AddCar/AddCar";
@@ -6,7 +7,8 @@ import Details from "./components/Details/Details";
 import EditCar from "./components/EditCar/EditCar";
 import CarsContextProvider from "./Contexts/CarContexts";
 
-function App() {
+
+const App = () => {
   return (
     <CarsContextProvider>
       <BrowserRouter>
@@ -18,7 +20,9 @@ function App() {
         </Routes>
       </BrowserRouter>
     </CarsContextProvider>
+
+
   );
-}
+};
 
 export default App;
