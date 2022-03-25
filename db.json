@@ -1,0 +1,60 @@
+{
+  "cars": [
+    {
+      "model": "UX HYBRID",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/lx/2022/visualizer/600/exterior/20-inch-alloy-wheels-with-machined-finish/eminent-white-pearl/large-1.jpg",
+      "price": "88.245$",
+      "details": "Completely reimagined for 2022, the all-new LX represents the next chapter of flagship luxury. Its exterior, a study in sophistication and strength, exhibits a silhouette that perfectly complements any road, on-road or off.* And the first-ever LX F SPORT Handling elevates your drive to its most visceral heights. Featuring aerodynamically enhanced bodywork, exclusive 22-inch wheels and a race-inspired interior, this SUV stands in a class of its own.",
+      "id": 2
+    },
+    {
+      "model": "LC 500",
+      "img": "https://toyota.scene7.com/is/image/toyota/Lexus-LCC-inspirationseries-specialedition-overlayhero-desktop-1440x596-LEX-LCC-MY23-0003?wid=1440&hei=596",
+      "price": "105.575$",
+      "details": "Taking personalized luxury to even greater heights, the LC Inspiration Series elevates the convertible as only Lexus could imagine. Building upon the generously equipped Touring Package, the LC Inspiration Series indulges with features that include Dark Rose interior accents and a heated leather-wrapped steering wheel. Its exterior captivates with an Iridium hue, a Dark Rose convertible soft top, and staggered 21-inch forged alloy wheels. And with its 471-horsepower,* 5.0-liter naturally aspirated V8 engine ready to provide a 0–60 time of just 4.6 seconds,*performance is as passionate as ever.",
+      "id": 4
+    },
+    {
+      "model": "IS 300",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/is/2022/visualizer/300/exterior/18-inch-split-five-spoke-alloy-wheels/eminent-white-pearl/large-1.jpg",
+      "price": "39.850$",
+      "details": "Destined to get the world’s attention, the 2022 IS 500 F SPORT Performance marks the debut of the Lexus F SPORT Performance line. In addition to a larger, naturally aspirated 5.0-liter V8 engine, it further sets itself apart from the standard F SPORT models with even more heart-racing sound, stacked quad exhaust tips, dynamic performance instrumentation and more.",
+      "id": 6
+    },
+    {
+      "model": "LS Hybrid",
+      "img": "https://toyota.scene7.com/is/image/toyota/Lexus-LS-additionalinfo-endcap-desktop-1440x350-LEX-LSG-MY21-0059_M75?wid=1440&hei=350",
+      "price": "80, 000 $",
+      "details": "Impressively smooth 0–60 acceleration. A sophisticated suspension system. And everything from engine components to the composition of the tires has been perfected to achieve a quiet, refined ride.",
+      "id": 7
+    },
+    {
+      "model": "UX HYBRID",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/ux/2022/visualizer/250h/exterior/18-five-spoke-alloy/redline/large-1.jpg",
+      "price": "36.425 $",
+      "details": "Purposefully crafted for city driving, the UX boasts a best-in-class 17.1-foot turning radius.* By tilting the wheels inward during tight maneuvers, it makes three-point turns a thing of the past.",
+      "id": 8
+    },
+    {
+      "model": "PURE EV",
+      "img": "https://www.lexus.com/content/dam/lexus/images/fcv/LF-Z/Lexus-LFZ-performance1-desktop-1440x800-LEX-LFZ-CY21-0004_M75.jpg",
+      "price": "120, 000 $",
+      "details": "Reimagining the future of driving manifests itself in the first Lexus to be built on an all-electric platform. Its all-new powertrain will vastly improve acceleration and power delivery compared to traditional cars. With an impressive driving range, the LF-Z Electrified Concept will accelerate with astonishing speed. The center of gravity will also be lowered to give the driver the razor-sharp handling and enhanced control needed for a demanding drive.",
+      "id": 9
+    },
+    {
+      "model": "UX",
+      "img": "https://www.lexus.com/content/dam/lexus/images/models/ux/2022/visualizer/200/exterior/18-five-spoke-alloy/eminent-white-pearl/large-1.jpg",
+      "price": "30,5 $",
+      "details": "Alexa* integration. Android Auto™* compatibility. An available 10.3-inch high-resolution split-screen multimedia display—the largest in its class.* This is more than standard technology that connects you. It's an extension of you.",
+      "id": 10
+    },
+    {
+      "model": "hvnhb",
+      "img": "jhgjh",
+      "price": "hfmj",
+      "details": "gfmh",
+      "id": 11
+    }
+  ]
+}
